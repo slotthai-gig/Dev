@@ -118,15 +118,15 @@
       </div>
 
       <div class="" id="demo">
-        <a href="#" class="line" target="_blank">
+        <a href="https://youtube.com/user/L3KMAY" class="line" target="_blank">
         <img src="../static/youtube.png" style="width:70px; height: 70px;">
         </a>
         
-        <a href="#" class="line" target="_blank">
+        <a href="https://www.facebook.com/sakon.kl.1" class="line" target="_blank">
           <img src="../static/facebook.png" style="width:65px; height: 63px;">
         </a>
         
-        <a href="#" class="line" target="_blank">
+        <a onclick="line()" class="line" target="_blank">
           <img src="../static/line.png" style="width:70px; height: 70px;">
         </a>
       </div>
@@ -135,6 +135,9 @@
         <video id="myVideo" width="270" height="176" loop="">
         <source src="../static/eq.mp4" type="video/mp4">
        </video>
+       </div>
+       <div id="qr" style="display:none">
+        <a href="https://line.me/ti/p/oQDD6OjcRM"><img src="../static/qr.png" width="176" height="176"></a>
        </div>
       <div class="profile-card-ctr">
         <button class="profile-card__button button--blue js-message-btn" onclick="playVid()">Play Music</button>
@@ -194,10 +197,10 @@
   </defs>
 </svg>
 <script>
- var vid = document.getElementById("myVideo");
+var vid = document.getElementById("myVideo");
 var demo = document.getElementById("demo");
 var aud = document.getElementById("aud");
-
+var qr = document.getElementById("qr");
 
 function playVid() { 
   vid.play(); 
@@ -211,6 +214,10 @@ function pauseVid() {
   demo.style.display="block";
 } 
 
+function line() { 
+  demo.style.display="none";
+  qr.style.display="block";
+} 
 </script>
 
 </body>

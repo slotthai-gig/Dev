@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+
+<head>
+    <title>BENSIN Editor | Web Editor</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7,8,edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="code edit">
+    <meta name="theme-color" content="#2f2d41">
+    <meta name="description" content="code edit online">
+    <link rel="apple-touch-icon" href="favicons/5486-dist-code_logo.png">
+    <link rel="shortcut icon" href="favicons/4365-dist-code_logo.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="../static/css/dist-style.css">
+</head>
+
+<body>
+  <div class="loader-box">
+ <img src="../static/images/dist-code_logo.png" alt="Code editor">
+  </div>
+  <div class="back"></div>
+    <nav class="nav">
+        <span id="nav-btn">menu</span>
+        <h3>BENSIN Editor</h3>
+        <button id="run">รัน<span>play_arrow</span></button>
+    </nav>
+    <div class="sidenav" id="sidenav">
+        <div class="top">
+            <h2>BENSIN in Black</h2>
+            <span id="back-btn">arrow_back</span>
+        </div>
+        <img src="../static/images/dist-code_logo.png" alt="Code logo">
+        <ul>
+            <li><a href="../template/index.html"><span>home</span><p>หน้าแรก</p></a></li>
+            <li><a href="#" id="about"><span>info</span><p>วิธีใช้งาน</p></a></li>
+            <li><a href="#"><span>contacts</span><p>ติดต่อแอดมิน</p></a></li>
+            <li><a href="../static/flex.html"><span>email</span><p>flex</p></a></li>
+        </ul>
+    </div>
+        <div class="container">
+            <div class="box">
+                <div class="title">HTML</div>
+                <div id="htmleh"></div>
+            </div>
+            <div class="box">
+                <div class="title">CSS</div>
+                <div id="csseh"></div>
+            </div>
+            <div class="box">
+                <div class="title">JS</div>
+                <div id="jseh"></div>
+            </div>
+        </div>
+        <div class="pre-container">
+          <div class="pre-top">
+          <span id="close-pre">arrow_back</span>
+            <h3>แสดงตัวอย่าง</h3>
+          </div>
+        <iframe id="preview"></iframe>
+        </div>
+    <!-- about -->
+        <div class="about-box">
+          <div>
+            <span id="close-about">arrow_back</span>
+            <h3>วิธีใช้งาน</h3>
+          </div>
+            <p>ก็อปปี้โค้ดที่จะแก้ไข
+               มาใส่ในช่อง html
+               โดยลบฟอร์ม
+               ที่มีให้ออกก่อน 
+               แล้วนำ สไตล์ css 
+               ใส่ในช่อง css (ถ้ามี)
+               และนำจาวาสคริป
+               มาใส่ในช่อง JS (ถ้ามี)
+               แต่ถ้าไม่มีโค้ดแก้ไข
+               ต้องการสร้างใหม่
+               ก้อให้ เริ่มตรง แท็ค
+               body ได้เลย มีข้อ
+               สงสัย ติดต่อ เบนซิน</p>
+        </div>
+    <script src="../static/js/1.4.13-ace.js"></script>
+    <script src="../static/js/1.4.13-ext-language_tools.min.js"></script>
+    <script src="../static/js/5422-dist-jquery.min.js" type="text/javascript"></script>
+    <script src="../static/js/4325-dist-main.js" type="text/javascript"></script>
+
+</body>
+
+</html>

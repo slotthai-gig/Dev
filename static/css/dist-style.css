@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'material-icons';
-  src: url(../fonts/dist-material-icons.ttf);
+  src: url(../static/dist-material-icons.ttf);
 }
 
 body {

@@ -7,10 +7,6 @@
   list-style: none;
 }
 
-@font-face {
-  font-family: 'material-icons';
-  src: url(../static/dist-material-icons.ttf);
-}
 
 body {
   width: 100%;
